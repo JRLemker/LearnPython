@@ -11,3 +11,12 @@ print(x)
 name = input('Enter you name:')
 print("Hello", name)  # note a space is automatically added
 
+# Exercise 3
+hours = float(input("Enter Hours: "))
+rate = float(input("Enter Rate: "))
+pay = hours * rate
+print("Pay:", pay)
+
+print("hello world")
+
+
