@@ -3,10 +3,22 @@ from tkinter import ttk
 
 
 def button_function():
-    print("A button was pressed")
+    #print("A button was pressed")
+
+    #get content of entry
+    #print(entry.get())
+    entry_text = entry.get()
+
+    #update the label
+    #label.configure(text = 'some other text')
+    label['text']= entry_text
+    entry['state'] = 'disabled'
+    print(label.configure())
 
 def hello():
     print('hello')
+    label['text'] = 'some text'
+    entry['state'] = 'enabled'
 
 #create the window
 window = tk.Tk()
